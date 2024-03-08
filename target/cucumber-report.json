@@ -1,0 +1,270 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5768553500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Menu DropDown",
+        "description": "",
+        "id": "bestbuy-automation;menu-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 824731100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99926100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open BestBuy page",
+            "match": {
+              "location": "BestBuyHomePageSteps.open_BestBuy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131935100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Menu",
+            "match": {
+              "location": "BestBuyHomePageSteps.click_on_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131455000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Deals",
+            "match": {
+              "location": "BestBuyHomePageSteps.click_on_Deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3233984500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Top Deals",
+            "match": {
+              "location": "BestBuyHomePageSteps.click_on_Top_Deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2133711400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to click on Featured Deals",
+            "match": {
+              "location": "BestBuyResultPageSteps.user_should_be_able_to_click_on_Featured_Deals()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BestBuy Automation",
+    "description": "",
+    "id": "bestbuy-automation",
+    "keyword": "Feature",
+    "uri": "BestBuyMenuDropDown.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5158426900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Pet CRUD API",
+        "description": "",
+        "id": "petstore-api-testing;pet-crud-api",
+        "after": [
+          {
+            "result": {
+              "duration": 760096100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Create pet",
+            "match": {
+              "location": "PetStoreRestAssuredSteps.create_pet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Get pet",
+            "match": {
+              "location": "PetStoreRestAssuredSteps.get_pet()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Petstore API Testing",
+    "description": "",
+    "id": "petstore-api-testing",
+    "keyword": "Feature",
+    "uri": "BestBuyPetStoreApiTesting.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@api"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4902860700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Menu DropDown",
+        "description": "",
+        "id": "bestbuy-automation;menu-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 1062089300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open BestBuy page",
+            "match": {
+              "location": "BestBuyHomePageSteps.open_BestBuy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10027717900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027widget-32b09cfe-ccac-4de4-9822-38f4337709ac\u0027]//a[1]\"}\n  (Session info: chrome\u003d122.0.6261.95)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-NH9B7CI\u0027, ip: \u0027192.168.1.76\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\conta\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 79cccb6e3f268143bd63b15c048247e3\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027widget-32b09cfe-ccac-4de4-9822-38f4337709ac\u0027]//a[1]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat bestbuy.pageAction.BestBuyHomePageActions.selectShopNow(BestBuyHomePageActions.java:27)\r\n\tat bestbuy.stepDef.BestBuyHomePageSteps.click_on_Shop_Now(BestBuyHomePageSteps.java:30)\r\n\tat ✽.When Click on Shop Now(BestBuyShopNow.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Click on Shop Now",
+            "match": {
+              "location": "BestBuyHomePageSteps.click_on_Shop_Now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be able to click on Exclusive Member Deals",
+            "match": {
+              "location": "BestBuyResultPageSteps.user_should_be_able_to_click_on_Exclusive_Member_Deals()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BestBuy Automation",
+    "description": "",
+    "id": "bestbuy-automation",
+    "keyword": "Feature",
+    "uri": "BestBuyShopNow.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
